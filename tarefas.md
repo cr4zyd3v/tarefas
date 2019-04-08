@@ -1,5 +1,4 @@
-Tarefa 1
-URL : https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem
+Tarefa 1 - URL : https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem
 
 Código:
 ```
@@ -48,8 +47,7 @@ if __name__ == '__main__':
 ```
 
 
-Tarefa 2
-URL: https://www.hackerrank.com/challenges/reduce-function/problem
+Tarefa 2 - URL: https://www.hackerrank.com/challenges/reduce-function/problem
 Código:
 ```
 from fractions import Fraction
@@ -67,4 +65,28 @@ if __name__ == '__main__':
     print(*result)
 ```
 
+Tarefa 3 - URL:https://www.hackerrank.com/challenges/words-score/problem
 
+Código:
+```
+def is_vowel(letter):
+    return letter in ['a', 'e', 'i', 'o', 'u', 'y']
+
+def score_words(words):
+    score = 0
+    for word in words:
+        num_vowels = 0
+        for letter in word:
+            if is_vowel(letter):
+                num_vowels += 1
+        if num_vowels % 2 == 0:
+            score += 2
+        else:
+            score += 1
+    return score
+
+
+n = int(input())
+words = input().split()
+print(score_words(words))
+```
