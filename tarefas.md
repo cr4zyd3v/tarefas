@@ -47,7 +47,8 @@ if __name__ == '__main__':
 ```
 
 
-Tarefa 2 - URL: https://www.hackerrank.com/challenges/reduce-function/problem
+Tarefa 2 - URL: https://www.hackerrank.com/challenges/reduce-function/problem     
+
 Código:
 ```
 from fractions import Fraction
@@ -65,7 +66,7 @@ if __name__ == '__main__':
     print(*result)
 ```
 
-Tarefa 3 - URL:https://www.hackerrank.com/challenges/words-score/problem
+Tarefa 3 - URL: https://www.hackerrank.com/challenges/words-score/problem
 
 Código:
 ```
